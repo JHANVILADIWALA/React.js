@@ -1,0 +1,16 @@
+import React from 'react';
+import  ReactDOM  from 'react-dom';
+
+const fn="jhanvi";
+const date=new Date().toLocaleDateString();
+const time=new Date().toLocaleTimeString();
+
+ReactDOM.render( 
+  <>
+  <h1>Hola ! My name is {fn} </h1>
+  <p> Current Date : {date}</p> 
+  <p> Current Time : {time}</p>
+  </>
+  , 
+  document.getElementById('root')
+  );
