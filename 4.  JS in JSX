@@ -1,0 +1,15 @@
+import React from 'react';
+import  ReactDOM  from 'react-dom';
+
+const fln='jhanvi ladiwala';
+
+//using {} we can use js in jsx 
+
+ReactDOM.render( 
+  <>
+  <h1>my name is {fln}</h1>
+  <p> my lucky number is {2**3}</p> // (** means : pow)
+  </>
+  , 
+  document.getElementById('root')
+  );
