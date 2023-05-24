@@ -1,0 +1,10 @@
+// var React=require('react'); //babble comes which allows modern js
+import React from 'react';
+// var ReactDOM =require('react-dom');
+import ReactDOM from 'react-dom';
+
+
+ReactDOM.render([ //array of elements (multiple elements)
+<h1>Hello</h1>, <p>world</p>
+]
+, document.getElementById("root"));
